@@ -1,2 +1,2 @@
 # pizzam-app
-Small app for entering Pizzam-portal Göttingen
+Small app for entering Pizzam-portal Göttingen.
