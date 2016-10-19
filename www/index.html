@@ -27,20 +27,13 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <!--css media for tabletcomputer (landscape ) and big smartphones (landscape)-------------------------------------------------------------------------------------------------------->
-        <link rel="stylesheet" media="screen  and (min-device-width:355px) and (orientation: landscape) and  (-webkit-min-device-pixel-ratio: 1.3),
-screen and (min-device-width:355px) and  (orientation: landscape) and  (min-device-pixel-ratio: 1.3),
-screen  and  (min-device-width:500px) and  (orientation: landscape) and  (-webkit-min-device-pixel-ratio: 1.3),
-screen and (min-device-width:500px) and  (orientation: landscape) and (min-device-pixel-ratio: 1.3)" type="text/css" href="css/index-tablet-landscape.css" />
-        <!--media-query for tabletcomputer (portrait) and big smartphones (portrait)----------------------------------------------------------------------------------------------------------->
-        <link rel="stylesheet" media="screen  and (min-device-width:355px) and (orientation: portrait) and  (-webkit-min-device-pixel-ratio: 1.3), /*big smartphones*/
-screen and (min-device-width:355px) and  (orientation: portrait) and  (min-device-pixel-ratio: 1.3),
-screen  and  (min-device-width:500px) and  (orientation: portrait) and  (-webkit-min-device-pixel-ratio: 1.3),
-screen and (min-device-width:500px) and  (orientation: portrait) and (min-device-pixel-ratio: 1.3)" type="text/css" href="css/index-tablet-portrait.css" />
-        <!--media-query for normal smartphones (landscape)-------------------------------------------------------------------------------------------------------------------------------------->
-        <link rel="stylesheet" media="screen  and  (max-device-width:630px) and  (min-resolution: 160dpi) and (orientation: landscape)" type="text/css" href="css/index-smartphones-landscape.css" />
+
+        <!--media-query for tabletcomputer (portrait) ----------------------------------------------------------------------------------------------------------->
+        <link rel="stylesheet" media="screen  and (min-width:600px) and (orientation: portrait) and  (-webkit-max-device-pixel-ratio: 2),
+screen and (min-width:600px) and  (orientation: portrait) and  (max-device-pixel-ratio: 2)" type="text/css" href="css/index-tablet-portrait.css" />
+
         <!--media-query for normal smartphones (portrait)--------------------------------------------------------------------------------------------------------------------------------------->
-        <link rel="stylesheet" media="screen  and  (max-device-width:630px) and  (min-resolution: 160dpi) and (orientation: portrait)" type="text/css" href="css/index-smartphones-portrait.css" />
+        <link rel="stylesheet" media="screen  and  (max-width:440px) and  (min-resolution: 160dpi) and (orientation: portrait)" type="text/css" href="css/index-smartphones-portrait.css" />
 		
 		<title>Pizza Live</title>
     </head>
@@ -72,9 +65,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="pizza-grande-button" src="./img/pizza-grande-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                               </div>
-                              <div class="open-mark-img-block centered-block">
+                        <!--      <div class="open-mark-img-block centered-block">
                                   <span>&nbsp &nbsp &nbsp </span>
-                             </div>
+                             </div>  -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -82,9 +75,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="urfa-63-button" src="./img/urfa-63-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div>  -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -92,9 +85,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="maxwell-button" src="./img/maxwell-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -106,9 +99,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="schnitzel-express-button" src="./img/schnitzel-express-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -116,9 +109,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="texas-burger-button" src="./img/texas-burger-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div>  -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -126,9 +119,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="menu-club-house-button" src="./img/menu-club-house-logo.jpg" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
-
-                            </div>
+                         <!--   <div class="open-mark-img-block centered-block">
+                                <span>&nbsp &nbsp &nbsp </span>
+                            </div> -->
                         </div>
                     </div>
 
@@ -140,9 +133,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="schnitzel-haus" src="./img/schnitzel-haus-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -150,9 +143,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="imbiss-rhodos-button" src="./img/imbiss-rhodos-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -160,9 +153,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="delux-2016-button" src="./img/delux-2016-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
@@ -174,9 +167,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="pizza24-button" src="./img/pizza24-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -184,9 +177,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="pizzawerk-2016-button" src="./img/pizzawerk-2016-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="e-shop-button-and-open-mark-container">
                             <div class="small-button-img-block centered-block">
@@ -194,9 +187,9 @@ screen and (min-device-width:500px) and  (orientation: portrait) and (min-device
                                     <img id="crazzy-2016-button" src="./img/crazzy-2016-logo.png" class="button-img e-shop-button-img">
                                 </figure>
                             </div>
-                            <div class="open-mark-img-block centered-block">
+                        <!--    <div class="open-mark-img-block centered-block">
                                 <span>&nbsp &nbsp &nbsp </span>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
 
