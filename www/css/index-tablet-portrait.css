@@ -30,7 +30,7 @@
 
 
     body {
-        background: url(../img/pizza-live-background-portrait-225x400.png) no-repeat center;
+        background: url(../img/pizzam-enter-app-background-1.jpg) no-repeat center;
         height: 200vw;
         width:100vw;
         background-size: cover;
@@ -65,6 +65,14 @@
         top:20vw;
         left:20vw;
         font-size: 20vw;
+    }
+
+    .small-button-img-block img{
+        width: 70%;
+    }
+
+    #portal-button{
+        width: 80%;
     }
 
 

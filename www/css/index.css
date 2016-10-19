@@ -165,7 +165,7 @@ h2{
     float: left;
     height: 60vw;         /*Only for test on pc in browser. For mobil devices look at media query*/
     overflow: hidden;
-    position: relative;
+    position: fixed;
     width: 60vw;         /*Only for test on pc in browser. For mobil devices look at media query */
     margin-left: 20%;
     margin-top: 50%;

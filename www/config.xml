@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "de.inchpoint.pizza-live"
+        id        = "de.inchpoint.pizzam-portal"
         version   = "1.0.0">
 
-    <name>Pizza-Live</name>
+    <name>Pizzam-Portal</name>
 
     <description>
-        Application to start Pizza-Live e-shop.
+        Application to enter Pizzam-Portal Göttingen.
     </description>
 
     <author href="http://inchpoint.de" email="info@inchpoint.de">
