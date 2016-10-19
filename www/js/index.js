@@ -152,7 +152,7 @@ var app = {
                 app.stopRotation();
                                                                            //   alert("No connection!"); //Debug
                 app.myChildWindowClose();
-                alert("Leider gibt es keine Internetverbindung.  Die Bestellung konnte nicht aufgegeben werden. Schließen Sie bitee die App um später zu probieren.");
+             //   alert("Leider gibt es keine Internetverbindung.  Die Bestellung konnte nicht aufgegeben werden. Schließen Sie bitee die App um später zu probieren.");
                 var noInternetMsgContainer = document.querySelector('#no-internet-msg-container');
                 noInternetMsgContainer.classList.remove("not-visible");
                 noInternetMsgContainer.classList.add("visible");
