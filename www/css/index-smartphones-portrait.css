@@ -45,13 +45,20 @@
 
      }
 
-     .small-button-img-block img{
-        width: 70%;
-     }
+    #portal-button{
+        width: 35%;
+        margin-top: 3em;
+        margin-bottom: 2em;
+    }
 
-     #portal-button{
-         width: 80%;
-     }
+    .small-button-img-block img{
+            width: 70%;
+            margin-bottom: 4em;
+    }
+
+
+
+
 
 
 
