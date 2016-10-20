@@ -29,11 +29,6 @@
 /* only screen and (min-device-width:500px) and  (orientation: portrait) and (min-device-pixel-ratio: 1.3) /*tabletcomputer*/
 
 
-    body {
-        background: url(../img/pizzam-enter-app-background-1.jpg) no-repeat center;
-        background-size: cover;
-    }
-
     #no-internet-msg-container{
         width: 100%;
         height: 60vw;

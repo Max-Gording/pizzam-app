@@ -26,11 +26,6 @@
 
 
  /*@media only screen  and  (max-device-width:630px) and  (min-resolution: 160dpi) and (orientation: portrait) */
-     body {
-         background: url(../img/pizzam-enter-app-background-1.jpg) no-repeat center;
-         background-size: cover;
-     }
-
      .load-container {
          height: 80vw !important;
          width: 80vw !important;
