@@ -175,13 +175,13 @@ h2{
     overflow: hidden;
     position: fixed;
     width: 60vw;         /*Only for test on pc in browser. For mobil devices look at media query */
-    margin-left: 20%;
+    margin-left: auto;
     margin-top: 50%;
 }
 
 .load6 .loader {
     color: green;
-   font-size: 20vw;
+   font-size: 30vw;
     text-indent: -9999em;
     overflow: hidden;
     width: 1em;

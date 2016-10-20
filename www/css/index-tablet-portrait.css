@@ -52,12 +52,12 @@
         margin-top: 50%;
     }
 
-    .load6 .loader{
+  /*  .load6 .loader{
         position: absolute;
         top:20vw;
         left:20vw;
         font-size: 30vw;
-    }
+    }  */
 
     #portal-button{
         width: 35%;
