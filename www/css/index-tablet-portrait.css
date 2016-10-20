@@ -47,9 +47,8 @@
     }
 
     .load-container{
-        height: 60vw;
-        width: 60vw;
-        margin-left: 20%;
+        height: 80vw;
+        width: 100vw;
         margin-top: 50%;
     }
 
@@ -57,7 +56,7 @@
         position: absolute;
         top:20vw;
         left:20vw;
-        font-size: 20vw;
+        font-size: 30vw;
     }
 
     #portal-button{

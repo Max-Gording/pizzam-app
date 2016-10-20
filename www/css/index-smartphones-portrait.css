@@ -28,13 +28,12 @@
  /*@media only screen  and  (max-device-width:630px) and  (min-resolution: 160dpi) and (orientation: portrait) */
      .load-container {
          height: 80vw !important;
-         width: 80vw !important;
-         margin-left: 20% !important;
+         width: 100vw !important;
          margin-top: 50% !important;
      }
 
      #circular-progress .loader {
-         font-size: 60vw !important;
+         font-size: 30vw !important;
 
      }
 
