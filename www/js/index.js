@@ -60,32 +60,7 @@ var app = {
                 if (app.goingState == "start-app" && app.myNetworkState == "connected") {
                                                                         //                alert(app.goingState);
                     var pizzamPortalURL = "http://pizzam.de";
-                    var bringdiensteURL = {};
-
-                    bringdiensteURL["pizza-grande"] = "http://pizza-grande.de";
-                                                                                          // alert(bringdiensteURL["pizza-grande"]);
-                    bringdiensteURL["urfa-63"] = "http://urfa63.de";
-                    bringdiensteURL["maxwell"] = "http://maxwell-pizzeria.de";
-                    bringdiensteURL["schnitzel-express"] = "http://express-schnitzel.de";
-                    bringdiensteURL["texas-burger"] = "http://texasxxl.de";
-                    bringdiensteURL["menu-club-house"] = "http://pizza-costasmeralda.de";
-                    bringdiensteURL["schnitzel-haus"] = "http://goettingen-schnitzelhaus.de";
-                    bringdiensteURL["imbiss-rhodos"] = "http://imbiss-rhodos.de";
-                    bringdiensteURL["delux-2016"] = "http://pizzeria-delux.de";
-                    bringdiensteURL["pizza24"] = "http://pizza24-goettingen.de";
-                    bringdiensteURL["pizzawerk-2016"] = "http://pizzawerkgoettingen.de";
-                    bringdiensteURL["crazzy-2016"] = "http://pizzeria-crazy.de";
-
-                    var portalButton = document.querySelector('#portal-button');
-                    portalButton.addEventListener("click", function(){app.goToPortalSite(pizzamPortalURL);}, false);
-                    var bringdienstButtonsList = document.getElementsByClassName('e-shop-button-img');
-                                                                                            //    alert(bringdienstButtonsList.length);
-                    for (var i=0; i < bringdienstButtonsList.length; i++) {
-
-                        bringdienstButtonsList[i].addEventListener("click", function(){app.goToBrindienstSite(this, bringdiensteURL);}, false);
-                                                                                          //     alert(bringdienstButtonsList[i].getAttribute("id"));
-                    }
-
+                    app.goToPortalSite(pizzamPortalURL);
 
                 }
             }
@@ -112,9 +87,10 @@ var app = {
     /*---------------app object property -------------------------------------------------------------------------------*/
 
     stopRotation: function(){
-                                                                           //    alert("Enter stopRotation");
+                                                                            alert("Enter stopRotation");
         //    app.goingState = "stopped";
         var circularProgressContainer = document.querySelector('#circular-progress');
+                                                                            alert(circularProgressContainer)
         circularProgressContainer.classList.remove("visible");
         circularProgressContainer.classList.add("not-visible");
     },
@@ -211,25 +187,12 @@ var app = {
 
     /*---------------app object property -------------------------------------------------------------------------------*/
 
-    goToPortalSite: function(bringDienstURL){
+    goToPortalSite: function(portalURL){
                                                           //   alert("Button Click!");
         app.startRotation();
-        app.myChildWindowOpen(bringDienstURL);
+        app.myChildWindowOpen(portalURL);
     },
 
-    /*---------------app object property -------------------------------------------------------------------------------*/
-
-    goToBrindienstSite: function(selectedBringdienstButton, bringdiensteURL){
-                                                              // alert("Bringdienst Button Click!");
-        var buttonId = selectedBringdienstButton.getAttribute("id");
-        var eshopName = buttonId.replace("-button","");
-                                                                // alert("Eshop Name " + eshopName);
-        eshopUrl = bringdiensteURL[eshopName];
-                                                                //alert ("Eshop URL " + eshopUrl);
-
-        app.startRotation();
-        app.myChildWindowOpen(eshopUrl);
-    },
 
     /*---------------app object property -------------------------------------------------------------------------------*/
 

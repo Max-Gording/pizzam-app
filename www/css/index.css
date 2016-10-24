@@ -39,7 +39,7 @@ body {
 
     min-width: 100%;
     min-height: 100%;
-    background:url(../img/pizzam-enter-app-background-1.jpg) /* no-repeat */ center;
+    background:url(../img/pizzam-enter-app-background-2.png) /* no-repeat */ center;
     background-size: cover;
    /* background-color:#E4E4E4; */
   /*  background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -115,76 +115,19 @@ h2{
     display: block;
 }
 
-/*
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
-}
 
-.event.listening {
-    background-color:#333333;
-    display:block;
-}
-
-#deviceready{
-    margin-top: 70%;
-    margin-left: 0!important;
-    width: 14vw;
-}
-
-.event.received {
-    background-color:#4B946A;
-    display:none;
-}
-
-@keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
-}
- 
-.blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
-}
-
-*/
-
-
-/*
-#circular-progress{
-    height: 60vw!important;
-    width: 60vw!important;
-    float: none;
-    position: absolute;
-    left: 30%;
-    top:35%;
-    z-index: 100;
-}
-*/
-
-/*Circular-loader with CSS */
 
 .load-container {
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     float: left;
     height: 60vw;         /*Only for test on pc in browser. For mobil devices look at media query*/
-    overflow: hidden;
+    overflow: visible;
     position: fixed;
     width: 60vw;         /*Only for test on pc in browser. For mobil devices look at media query */
-    margin-left: auto;
     margin-top: 50%;
+    margin-left: 20vw;
+    display: block;
 }
 
 .load6 .loader {
@@ -272,75 +215,7 @@ h2{
     text-align: center;
 }
 
-#portal-button-container{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    float: left;
-}
 
-#portal-button-container h1{
-    width: 100%;
-    text-align: center;
-    font-size: 1.3em;
-}
-
-.e-shop-buttons-row-container{
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    float: left;
-}
-
-.e-shop-buttons-row-container.first{
-    margin-top: 1vw!important;
-}
-
-.e-shop-button-and-open-mark-container{
-    width: 33.333%;
-    display: block;
-    float: left;
-    text-align: center;
-}
-
-.big-button-img-block figure{
-    margin: 0;
-}
-
-.small-button-img-block{
-    width: 100%;
-    display: table;
-}
-
-.small-button-img-block figure{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.open-mark-img-block{
-    display: inline;
-    height: 1em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    width: 1em;
-}
-
-.open-mark-img-block span{
-    height: 1em;
-    width: 1em;
-}
-
-
-
-.open-mark-img-block.e-sop-opened{
-    background: url("../img/geoeffnet-img.png") no-repeat center;;
-}
-
-.open-mark-img-block.e-sop-closed{
-    background: url("../img/geschlossen-img.png") no-repeat center;
-}
-
-.button-container{
-    margin-bottom: 1.5em;
-}
 
 
 
