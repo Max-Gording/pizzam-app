@@ -87,10 +87,10 @@ var app = {
     /*---------------app object property -------------------------------------------------------------------------------*/
 
     stopRotation: function(){
-                                                                            alert("Enter stopRotation");
+                                                                         //   alert("Enter stopRotation");
         //    app.goingState = "stopped";
         var circularProgressContainer = document.querySelector('#circular-progress');
-                                                                            alert(circularProgressContainer)
+                                                                         //   alert(circularProgressContainer);
         circularProgressContainer.classList.remove("visible");
         circularProgressContainer.classList.add("not-visible");
     },

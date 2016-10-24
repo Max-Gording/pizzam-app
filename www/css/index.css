@@ -126,8 +126,6 @@ h2{
     position: fixed;
     width: 60vw;         /*Only for test on pc in browser. For mobil devices look at media query */
     margin-top: 50%;
-    margin-left: 20vw;
-    display: block;
 }
 
 .load6 .loader {
@@ -200,6 +198,9 @@ h2{
 }
 
 #no-internet-msg-container{
+    width: 100%;
+    height: 60vw;
+    margin-top: 50vw;
     background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
     position: absolute;
     text-align: left;
@@ -207,13 +208,12 @@ h2{
 
 #no-internet-msg-container h2{
     float: none;
+    margin-top: 20vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
     position: absolute;
 }
 
-.wide-container{
-    width: 100%;
-    text-align: center;
-}
 
 
 
