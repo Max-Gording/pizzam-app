@@ -56,10 +56,12 @@ var app = {
             {
                                                                                         //      alert("Enter mainAppHandler");
                 app.checkConnection();
-                                                                                         //     alert(app.myNetworkState);
+
                 if (app.goingState == "start-app" && app.myNetworkState == "connected") {
-                                                                        //                alert(app.goingState);
+                                                                                        
                     var pizzamPortalURL = "http://pizzam.de";
+                    var bodyTag = document.getElementsByTagName('body')[0];
+                    bodyTag.addEventListener("click", function(){app.goToPortalSite(pizzamPortalURL);}, false);
                     app.goToPortalSite(pizzamPortalURL);
 
                 }
