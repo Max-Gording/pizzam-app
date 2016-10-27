@@ -58,7 +58,7 @@ var app = {
                 app.checkConnection();
 
                 if (app.goingState == "start-app" && app.myNetworkState == "connected") {
-                                                                                        
+
                     var pizzamPortalURL = "http://pizzam.de";
                     var bodyTag = document.getElementsByTagName('body')[0];
                     bodyTag.addEventListener("click", function(){app.goToPortalSite(pizzamPortalURL);}, false);
